@@ -6,9 +6,9 @@ class Human:
     
     def check_adult(self):
         if self.age >= 20: 
-            print(f"{self.name}は、成人です")
+            print(self.name + "は、成人です")
         else:
-            print(f"{self.name}は、未成年です")
+            print(self.name + "は、未成年です")
 
 # Humanクラスのインスタンスを複数生成してリストに追加
 humnan_list = [Human("侍太郎",20),Human("侍花子",19)]
